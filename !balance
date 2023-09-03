@@ -1,0 +1,7 @@
+{% set money = member.getAttribute('money') %}
+
+{% if (money == null) %}
+  {% do money.update(1) %}
+{% endif %}
+
+{{ member }}, ваш текущий баланс составляет: {{ money.value }}.
