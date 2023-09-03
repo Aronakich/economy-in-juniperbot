@@ -1,0 +1,5 @@
+{% set money = member.getAttribute('money') %}
+{% set workmoney = random(1, 250) %}
+
+{% do money.increment(workmoney) %}
+Вы заработали {{ workmoney }}.
