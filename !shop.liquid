@@ -1,0 +1,18 @@
+{% set money = member.getAttribute('money') %}
+
+{% if arguments == null %}
+
+Магазин
+Роль - VIP (250 монет)
+
+Для покупки напишите !shop vip
+
+{% else %}
+
+{% require money.value >= 250 returning 'У вас недостаточно средств для покупки' %}
+
+{% do money.decrement(250) %}
+{% do member.addRole( "УКАЖИТЕ ЗДЕСЬ ID РОЛИ" ) %}
+Вы успешно купили роль
+
+{% endif %}
