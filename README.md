@@ -2,7 +2,7 @@
 
 ## Базовые команды экономики для JuniperBot в Discord
 
-[➕ мой дискорд сервер](https://discord.com/invite/Ex64BKMrD6)
+[➕ мой дискорд](https://discordapp.com/users/978778882482274314)
  | 
 [✅ juniperbot](https://juniper.bot/)
 
